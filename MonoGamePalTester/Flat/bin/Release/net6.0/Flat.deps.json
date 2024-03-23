@@ -6,9 +6,10 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Flat/1.0.0": {
+      "Flat/1.0.4": {
         "dependencies": {
-          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+          "MonoGame.Framework.DesktopGL": "3.8.1.303",
+          "NuGet.Build.Tasks.Pack": "6.9.1"
         },
         "runtime": {
           "Flat.dll": {}
@@ -63,11 +64,12 @@
             "fileVersion": "0.0.0.0"
           }
         }
-      }
+      },
+      "NuGet.Build.Tasks.Pack/6.9.1": {}
     }
   },
   "libraries": {
-    "Flat/1.0.0": {
+    "Flat/1.0.4": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -78,6 +80,13 @@
       "sha512": "sha512-eGYhqn0n1olk8MNYeE9EuBmoNNECN1T18rPMaQpkzsEQ0H3nVyFPXC+uCo78v5pi5juQpJ3PSFnSkjzZJ1U58A==",
       "path": "monogame.framework.desktopgl/3.8.1.303",
       "hashPath": "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    },
+    "NuGet.Build.Tasks.Pack/6.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z53z9n11VdS7jq5dQUsDFMrE5RGGLyFemA2iW/hOSjw9jI6cFX5yyF9NUQRWVv81t7xzOLyT8+TtRE+WxLcMGA==",
+      "path": "nuget.build.tasks.pack/6.9.1",
+      "hashPath": "nuget.build.tasks.pack.6.9.1.nupkg.sha512"
     }
   }
 }

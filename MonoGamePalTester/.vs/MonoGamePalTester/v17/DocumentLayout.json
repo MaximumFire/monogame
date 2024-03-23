@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6BA2CF-12EE-4CEA-8FAA-14ED6077D5A7}|Flat\\Flat.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\monogamepaltester\\flat\\flat.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{3E6BA2CF-12EE-4CEA-8FAA-14ED6077D5A7}|Flat\\Flat.csproj|solutionrelative:flat\\flat.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3E6BA2CF-12EE-4CEA-8FAA-14ED6077D5A7}|Flat\\Flat.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\monogamepaltester\\flat\\graphics\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3E6BA2CF-12EE-4CEA-8FAA-14ED6077D5A7}|Flat\\Flat.csproj|solutionrelative:flat\\graphics\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADE3B97-33B4-473C-A0F8-F813A130F3AB}|MonoGamePalTester\\MonoGamePalTester.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\monogamepaltester\\monogamepaltester\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADE3B97-33B4-473C-A0F8-F813A130F3AB}|MonoGamePalTester\\MonoGamePalTester.csproj|solutionrelative:monogamepaltester\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,44 +18,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Flat",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\Flat\\Flat.csproj",
-              "RelativeDocumentMoniker": "Flat\\Flat.csproj",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\Flat\\Flat.csproj",
-              "RelativeToolTip": "Flat\\Flat.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-23T22:31:34.197Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Camera.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\Flat\\Graphics\\Camera.cs",
-              "RelativeDocumentMoniker": "Flat\\Graphics\\Camera.cs",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\Flat\\Graphics\\Camera.cs",
-              "RelativeToolTip": "Flat\\Graphics\\Camera.cs",
-              "ViewState": "AQIAAGkAAAAAAAAAAAAhwG8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T22:29:56.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\MonoGamePalTester\\Game1.cs",
-              "RelativeDocumentMoniker": "MonoGamePalTester\\Game1.cs",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\MonoGamePalTester\\Game1.cs",
-              "RelativeToolTip": "MonoGamePalTester\\Game1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T14:11:53.779Z",
-              "EditorCaption": ""
             }
           ]
         }

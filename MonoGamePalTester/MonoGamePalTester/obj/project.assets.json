@@ -55,9 +55,12 @@
           }
         }
       },
-      "connormcharg-flat/1.0.0": {
+      "connormcharg-flat/1.0.4": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
         "compile": {
           "bin/placeholder/connormcharg-flat.dll": {}
         },
@@ -104,7 +107,7 @@
         "runtimes/win-x86/native/soft_oal.dll"
       ]
     },
-    "connormcharg-flat/1.0.0": {
+    "connormcharg-flat/1.0.4": {
       "type": "project",
       "path": "../Flat/Flat.csproj",
       "msbuildProject": "../Flat/Flat.csproj"
@@ -114,7 +117,7 @@
     "net6.0": [
       "MonoGame.Content.Builder.Task >= 3.8.1.303",
       "MonoGame.Framework.DesktopGL >= 3.8.1.303",
-      "connormcharg-flat >= 1.0.0"
+      "connormcharg-flat >= 1.0.4"
     ]
   },
   "packageFolders": {

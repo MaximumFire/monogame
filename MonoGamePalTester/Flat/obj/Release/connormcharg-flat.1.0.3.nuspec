@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>connormcharg-flat</id>
-    <version>1.0.0</version>
+    <version>1.0.3</version>
     <title>2D Graphics Implementation in  MonoGame</title>
     <authors>Connor McHarg</authors>
     <license type="expression">MIT</license>
@@ -15,7 +15,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="C:\Users\conno\OneDrive\Documents\GitHub\monogame\MonoGamePalTester\Flat\bin\Debug\net6.0\Flat.dll" target="lib\net6.0\Flat.dll" />
+    <file src="C:\Users\conno\OneDrive\Documents\GitHub\monogame\MonoGamePalTester\Flat\bin\Release\net6.0\Flat.dll" target="lib\net6.0\Flat.dll" />
     <file src="C:\Users\conno\OneDrive\Documents\GitHub\monogame\MonoGamePalTester\Flat\readme.md" target="\readme.md" />
   </files>
 </package>
