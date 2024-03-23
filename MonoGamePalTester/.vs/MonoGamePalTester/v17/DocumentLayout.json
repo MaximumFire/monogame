@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE3B97-33B4-473C-A0F8-F813A130F3AB}|MonoGamePalTester\\MonoGamePalTester.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\monogamepaltester\\monogamepaltester\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE3B97-33B4-473C-A0F8-F813A130F3AB}|MonoGamePalTester\\MonoGamePalTester.csproj|solutionrelative:monogamepaltester\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +23,19 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\MonoGamePalTester\\Game1.cs",
+              "RelativeDocumentMoniker": "MonoGamePalTester\\Game1.cs",
+              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\MonoGamePalTester\\Game1.cs",
+              "RelativeToolTip": "MonoGamePalTester\\Game1.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAIMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T14:11:53.779Z",
+              "EditorCaption": ""
             }
           ]
         }
