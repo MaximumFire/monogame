@@ -1,0 +1,1 @@
+﻿# This is a 2D graphics implementation for MonoGame with shape drawing and a camera on a z axis.

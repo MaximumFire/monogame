@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Flat</id>
+    <id>connormcharg-flat</id>
     <version>1.0.0</version>
-    <authors>Flat</authors>
-    <description>Package Description</description>
+    <title>2D Graphics Implementation in  MonoGame</title>
+    <authors>Connor McHarg</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>readme.md</readme>
+    <description>2D Graphics Implementation in  MonoGame</description>
     <repository type="git" commit="c8fce7231ee028996621b2595d2665a4b283553f" />
     <dependencies>
       <group targetFramework="net6.0" />
@@ -12,5 +16,6 @@
   </metadata>
   <files>
     <file src="C:\Users\conno\OneDrive\Documents\GitHub\monogame\MonoGamePalTester\Flat\bin\Debug\net6.0\Flat.dll" target="lib\net6.0\Flat.dll" />
+    <file src="C:\Users\conno\OneDrive\Documents\GitHub\monogame\MonoGamePalTester\Flat\readme.md" target="\readme.md" />
   </files>
 </package>

@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Flat")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Connor McHarg")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("2D Graphics Implementation in  MonoGame")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bd85489691d33a5b40592f29c49d3175289bc8d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8fce7231ee028996621b2595d2665a4b283553f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
