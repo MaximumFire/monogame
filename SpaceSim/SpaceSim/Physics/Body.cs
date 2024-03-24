@@ -9,14 +9,24 @@ namespace SpaceSim.Physics
         public double mass;
         public VectorD velocity;
         public VectorD acceleration;
-        public Vector2 position;
+        public VectorD position;
         public Color color;
         public float size;
 
-        public Body(double mass, Vector2 position, float size, Color color)
+        public Body(double mass, VectorD position, float size, Color color)
         {
             this.mass = mass;
             this.velocity = new VectorD(0, 0);
+            this.acceleration = new VectorD(0, 0);
+            this.position = position;
+            this.color = color;
+            this.size = size;
+        }
+
+        public Body(double mass, VectorD position, VectorD velocity, float size, Color color)
+        {
+            this.mass = mass;
+            this.velocity = velocity;
             this.acceleration = new VectorD(0, 0);
             this.position = position;
             this.color = color;
