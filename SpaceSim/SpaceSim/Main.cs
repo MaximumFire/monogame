@@ -130,7 +130,7 @@ namespace SpaceSim
 
             foreach (Body a in this.bodies)
             {
-                VectorD pixelPositions = GetPixelDistanceLog(a);
+                VectorD pixelPositions = GetPixelDistance(a);
                 float x = (float)pixelPositions.X;
                 float y = (float)pixelPositions.Y;
                 this.shapes.DrawCircleFill(x, y, a.size, 50, a.color);
@@ -161,7 +161,10 @@ namespace SpaceSim
             x = x / Math.Pow(10, 9);
             y = y / Math.Pow(10, 9);
 
-            if (Math.Sqrt(x * x + y * y) < MathHelper.E)
+            x = Math.Log10(x + 1) * 140;
+            y = Math.Log10(y + 1) * 140;
+
+            /*if (Math.Sqrt(x * x + y * y) < MathHelper.E)
             {
                 x = 0.15977 * 140 * x;
                 y = 0.15977 * 140 * y;
@@ -170,7 +173,7 @@ namespace SpaceSim
             {
                 x = Math.Log10(x + 1) * 140;
                 y = Math.Log10(y + 1) * 140;
-            }
+            }*/
 
             x = (a.position.X < 0) ? -x : x;
             y = (a.position.Y < 0) ? -y : y;
