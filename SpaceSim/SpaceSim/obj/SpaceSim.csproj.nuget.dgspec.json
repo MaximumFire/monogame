@@ -50,13 +50,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "MonoGame.Content.Builder.Task": {
+            "connormcharg-flat": {
               "target": "Package",
-              "version": "[3.8.1.303, )"
-            },
-            "MonoGame.Framework.DesktopGL": {
-              "target": "Package",
-              "version": "[3.8.1.303, )"
+              "version": "[1.0.4, )"
             }
           },
           "imports": [

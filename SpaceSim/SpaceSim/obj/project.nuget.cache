@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BV0ElU5FvU3ABytR9SkeXpm+/NNSk7yhca6d001oOHqDbXlm/EAed/xAioaX/n8T3Y8rkag9LfCWzbn00lybPw==",
+  "dgSpecHash": "/DBKYYz2WzkwPgG1Rzt1wSA8iYgHXY2BBvd7h8CXaydIcAuKpGnte5JL3FfVdBgLrp5KnZ0BWEsfPZqIcFgB1A==",
   "success": true,
   "projectFilePath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\conno\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\connormcharg-flat\\1.0.4\\connormcharg-flat.1.0.4.nupkg.sha512",
     "C:\\Users\\conno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
   ],
   "logs": []

@@ -5,6 +5,8 @@ using Flat;
 using Flat.Graphics;
 using Flat.Input;
 using System;
+using SpaceSim.Physics;
+using System.Diagnostics;
 
 namespace SpaceSim
 {
@@ -15,6 +17,9 @@ namespace SpaceSim
         private Screen screen;
         private Camera camera;
         private Shapes shapes;
+
+        Body a;
+        Body b;
 
         public Main()
         {
@@ -35,6 +40,9 @@ namespace SpaceSim
             this.shapes = new Shapes(this);
             this.camera = new Camera(this.screen);
 
+            this.a = new Body(5.972 * Math.Pow(10, 24), new Vector2(0f, 0f), 50, Color.Blue);
+            this.b = new Body(1.989 * Math.Pow(10, 30), new Vector2(149.15f * MathF.Pow(10, 9), 0f), 50, Color.Yellow);
+
             base.Initialize();
         }
 
@@ -47,6 +55,11 @@ namespace SpaceSim
             mouse.Update();
 
             // Handling Input Goes Here
+
+            if (keyboard.IsKeyClicked(Keys.OemTilde))
+            {
+                Console.WriteLine("Gravity of earth to sun = " + Gravity.GravitationalForce(a, b));
+            }
 
             if (keyboard.IsKeyClicked(Keys.F))
             {
@@ -74,11 +87,11 @@ namespace SpaceSim
         protected override void Draw(GameTime gameTime)
         {
             this.screen.Set();
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.Black);
             this.shapes.Begin(this.camera);
 
             // Drawing Shapes Goes Here
-            this.shapes.DrawCircleFill(100, 100, 25, 50, Color.White);
+            this.shapes.DrawCircleFill(0, 0, 100, 50, Color.Yellow);
 
             this.shapes.End();
             this.screen.UnSet();
