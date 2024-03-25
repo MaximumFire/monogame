@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\",
+  "WorkspaceRootPath": "E:\\source\\SpaceSim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\spacesim\\spacesim\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|solutionrelative:spacesim\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0074E4F6-D1DD-479A-8D18-5D845EDF1F75}|SpaceSim\\SpaceSim.csproj|e:\\source\\spacesim\\spacesim\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0074E4F6-D1DD-479A-8D18-5D845EDF1F75}|SpaceSim\\SpaceSim.csproj|solutionrelative:spacesim\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\spacesim\\spacesim\\physics\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|solutionrelative:spacesim\\physics\\body.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\spacesim\\spacesim\\physics\\vectord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|solutionrelative:spacesim\\physics\\vectord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|c:\\users\\conno\\onedrive\\documents\\github\\monogame\\spacesim\\spacesim\\physics\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1E5A3CB-6CB5-4718-A420-ACECEE160159}|SpaceSim\\SpaceSim.csproj|solutionrelative:spacesim\\physics\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0074E4F6-D1DD-479A-8D18-5D845EDF1F75}|SpaceSim\\SpaceSim.csproj|e:\\source\\spacesim\\spacesim\\physics\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0074E4F6-D1DD-479A-8D18-5D845EDF1F75}|SpaceSim\\SpaceSim.csproj|solutionrelative:spacesim\\physics\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,51 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VectorD.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Physics\\VectorD.cs",
-              "RelativeDocumentMoniker": "SpaceSim\\Physics\\VectorD.cs",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Physics\\VectorD.cs",
-              "RelativeToolTip": "SpaceSim\\Physics\\VectorD.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAADAAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-24T00:20:19.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Gravity.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Physics\\Gravity.cs",
-              "RelativeDocumentMoniker": "SpaceSim\\Physics\\Gravity.cs",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Physics\\Gravity.cs",
-              "RelativeToolTip": "SpaceSim\\Physics\\Gravity.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T23:45:10.916Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Body.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Physics\\Body.cs",
-              "RelativeDocumentMoniker": "SpaceSim\\Physics\\Body.cs",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Physics\\Body.cs",
-              "RelativeToolTip": "SpaceSim\\Physics\\Body.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAABdAAAA",
+              "Title": "Gravity.cs",
+              "DocumentMoniker": "E:\\source\\SpaceSim\\SpaceSim\\Physics\\Gravity.cs",
+              "RelativeDocumentMoniker": "SpaceSim\\Physics\\Gravity.cs",
+              "ToolTip": "E:\\source\\SpaceSim\\SpaceSim\\Physics\\Gravity.cs",
+              "RelativeToolTip": "SpaceSim\\Physics\\Gravity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T23:40:02.296Z"
+              "WhenOpened": "2024-03-25T21:45:39.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Main.cs",
+              "DocumentMoniker": "E:\\source\\SpaceSim\\SpaceSim\\Main.cs",
               "RelativeDocumentMoniker": "SpaceSim\\Main.cs",
-              "ToolTip": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\Main.cs",
+              "ToolTip": "E:\\source\\SpaceSim\\SpaceSim\\Main.cs",
               "RelativeToolTip": "SpaceSim\\Main.cs",
-              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFEAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T22:04:02.178Z",
+              "WhenOpened": "2024-03-25T18:45:18.714Z",
               "EditorCaption": ""
             }
           ]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {}
+    "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {
+    "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
+        "projectUniqueName": "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
         "projectName": "SpaceSim",
-        "projectPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
+        "projectPath": "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
         "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\obj\\",
+        "outputPath": "E:\\source\\SpaceSim\\SpaceSim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -30,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -47,8 +47,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "connormcharg-flat": {
               "target": "Package",
@@ -71,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

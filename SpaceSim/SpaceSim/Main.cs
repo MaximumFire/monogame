@@ -4,9 +4,7 @@ using Microsoft.Xna.Framework.Input;
 using Flat;
 using Flat.Graphics;
 using Flat.Input;
-using System;
 using SpaceSim.Physics;
-using System.Diagnostics;
 
 namespace SpaceSim
 {
@@ -19,7 +17,7 @@ namespace SpaceSim
         private Shapes shapes;
 
         const double sixtyFps = 1.0 / 60.0;
-        const double timeScale = 1000 * 1000;
+        private double timeScale = 1000 * 100;
         private double distScale;
 
         List<Body> bodies;
@@ -46,16 +44,16 @@ namespace SpaceSim
             this.bodies = new List<Body>();
             this.bodies.Add(new Body(1.989 * Math.Pow(10, 30), new VectorD(0, 0), 15, Color.Yellow));
             this.bodies.Add(new Body(3.301 * Math.Pow(10, 23), new VectorD(-57.9 * Math.Pow(10, 9), 0), new VectorD(0, 47.9 * Math.Pow(10, 3)), 5, Color.OrangeRed));
-            this.bodies.Add(new Body(4.867 * Math.Pow(10, 24), new VectorD(-108.2 * Math.Pow(10, 9), 0), new VectorD(0, 35.0 * Math.Pow(10, 3)), 7, Color.LightYellow));
+            this.bodies.Add(new Body(4.867 * Math.Pow(10, 24), new VectorD(108.2 * Math.Pow(10, 9), 0), new VectorD(0, -35.0 * Math.Pow(10, 3)), 7, Color.LightYellow));
             this.bodies.Add(new Body(5.972 * Math.Pow(10, 24), new VectorD(-149.6 * Math.Pow(10, 9), 0), new VectorD(0, 29.8 * Math.Pow(10, 3)), 5, Color.Blue));
-            this.bodies.Add(new Body(6.417 * Math.Pow(10, 23), new VectorD(-227.9 * Math.Pow(10, 9), 0), new VectorD(0, 24.1 * Math.Pow(10, 3)), 5, Color.Red));
+            this.bodies.Add(new Body(6.417 * Math.Pow(10, 23), new VectorD(227.9 * Math.Pow(10, 9), 0), new VectorD(0, -24.1 * Math.Pow(10, 3)), 5, Color.Red));
             this.bodies.Add(new Body(1.899 * Math.Pow(10, 27), new VectorD(-778.4 * Math.Pow(10, 9), 0), new VectorD(0, 13.1 * Math.Pow(10, 3)), 12, Color.Salmon));
-            this.bodies.Add(new Body(5.685 * Math.Pow(10, 26), new VectorD(-1423.6 * Math.Pow(10, 9), 0), new VectorD(0, 9.7 * Math.Pow(10, 3)), 10, Color.LightYellow));
+            this.bodies.Add(new Body(5.685 * Math.Pow(10, 26), new VectorD(1423.6 * Math.Pow(10, 9), 0), new VectorD(0, -9.7 * Math.Pow(10, 3)), 10, Color.LightYellow));
             this.bodies.Add(new Body(8.682 * Math.Pow(10, 25), new VectorD(-2867 * Math.Pow(10, 9), 0), new VectorD(0, 6.8 * Math.Pow(10, 3)), 9, Color.Aquamarine));
-            this.bodies.Add(new Body(1.024 * Math.Pow(10, 26), new VectorD(-4488.4 * Math.Pow(10, 9), 0), new VectorD(0, 5.4 * Math.Pow(10, 3)), 8, Color.MidnightBlue));
+            this.bodies.Add(new Body(1.024 * Math.Pow(10, 26), new VectorD(4488.4 * Math.Pow(10, 9), 0), new VectorD(0, -5.4 * Math.Pow(10, 3)), 8, Color.MidnightBlue));
             this.bodies.Add(new Body(1.471 * Math.Pow(10, 22), new VectorD(-5909.6 * Math.Pow(10, 9), 0), new VectorD(0, 4.64 * Math.Pow(10, 3)), 4, Color.DarkSlateBlue));
 
-            // metres per pixel assuming 16 billion km diameter for max orbit 
+            // metres per pixel assuming 16 billion km diameter for max orbit
             this.distScale = 16 * Math.Pow(10, 12) / Math.Min(this.screen.Width, this.screen.Height) / 4;
 
             base.Initialize();
@@ -73,7 +71,17 @@ namespace SpaceSim
 
             if (keyboard.IsKeyClicked(Keys.OemTilde))
             {
-                
+
+            }
+
+            if (keyboard.IsKeyDown(Keys.Up))
+            {
+                timeScale += 10000;
+            }
+
+            if (keyboard.IsKeyDown(Keys.Down))
+            {
+                timeScale -= 10000;
             }
 
             if (keyboard.IsKeyClicked(Keys.F))
@@ -130,9 +138,10 @@ namespace SpaceSim
 
             foreach (Body a in this.bodies)
             {
-                VectorD pixelPositions = GetPixelDistance(a);
+                VectorD pixelPositions = GetPixelDistanceLog(a);
                 float x = (float)pixelPositions.X;
                 float y = (float)pixelPositions.Y;
+
                 this.shapes.DrawCircleFill(x, y, a.size, 50, a.color);
             }
 
@@ -161,22 +170,28 @@ namespace SpaceSim
             x = x / Math.Pow(10, 9);
             y = y / Math.Pow(10, 9);
 
-            x = Math.Log10(x + 1) * 140;
-            y = Math.Log10(y + 1) * 140;
+            double r = Math.Sqrt(x * x + y * y);
 
-            /*if (Math.Sqrt(x * x + y * y) < MathHelper.E)
+            double xRatio = x / r;
+            double yRatio = y / r;
+
+            if (r < MathHelper.E)
             {
-                x = 0.15977 * 140 * x;
-                y = 0.15977 * 140 * y;
+                r = 0.15977 * 140 * r;
             }
             else
             {
-                x = Math.Log10(x + 1) * 140;
-                y = Math.Log10(y + 1) * 140;
-            }*/
+                r = Math.Log10(r + 1) * 140;
+            }
+
+            x = r * xRatio;
+            y = r * yRatio;
 
             x = (a.position.X < 0) ? -x : x;
             y = (a.position.Y < 0) ? -y : y;
+
+            x = (a.position.X == 0) ? 0 : x;
+            y = (a.position.Y == 0) ? 0 : y;
 
             return new VectorD(x, y);
         }
