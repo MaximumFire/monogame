@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {}
+    "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {}
   },
   "projects": {
-    "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {
+    "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
+        "projectUniqueName": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
         "projectName": "SpaceSim",
-        "projectPath": "E:\\source\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
+        "projectPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\SpaceSim.csproj",
         "packagesPath": "C:\\Users\\conno\\.nuget\\packages\\",
-        "outputPath": "E:\\source\\SpaceSim\\SpaceSim\\obj\\",
+        "outputPath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\SpaceSim\\SpaceSim\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
