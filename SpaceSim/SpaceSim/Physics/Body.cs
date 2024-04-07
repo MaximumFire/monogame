@@ -10,6 +10,8 @@ namespace SpaceSim.Physics
         public VectorD velocity;
         public VectorD acceleration;
         public VectorD position;
+        public int x;
+        public int y;
         public Color color;
         public float size;
 

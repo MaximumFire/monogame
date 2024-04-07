@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "connormcharg-flat/1.0.4": {
+      "connormcharg-flat/1.0.5": {
         "type": "package",
         "dependencies": {
           "MonoGame.Framework.DesktopGL": "3.8.1.303"
@@ -63,14 +63,14 @@
     }
   },
   "libraries": {
-    "connormcharg-flat/1.0.4": {
-      "sha512": "PeW2HCttmFcAxOamqEygYVuHvJ+DGau+KSFDzE+pWVMItzVOt8laQDhDEJaq4FNZKergqbo36joPewfDJPEs0g==",
+    "connormcharg-flat/1.0.5": {
+      "sha512": "0S3FWp9crztNgdBPalXBJXbmn1EPEhLzW5qPQ1xCLsjIt47qH2gO578b77jQ5xkR5sDv+f18XygfxWi+dgGcsw==",
       "type": "package",
-      "path": "connormcharg-flat/1.0.4",
+      "path": "connormcharg-flat/1.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "connormcharg-flat.1.0.4.nupkg.sha512",
+        "connormcharg-flat.1.0.5.nupkg.sha512",
         "connormcharg-flat.nuspec",
         "lib/net6.0/Flat.dll",
         "readme.md"
@@ -101,7 +101,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "connormcharg-flat >= 1.0.4"
+      "connormcharg-flat >= 1.0.5"
     ]
   },
   "packageFolders": {
@@ -156,7 +156,7 @@
         "dependencies": {
           "connormcharg-flat": {
             "target": "Package",
-            "version": "[1.0.4, )"
+            "version": "[1.0.5, )"
           }
         },
         "imports": [

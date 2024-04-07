@@ -20,14 +20,16 @@ namespace SpaceSim
         private double timeScale = 1000 * 100;
         private double distScale;
 
+        private int camFocus;
+
         List<Body> bodies;
 
         public Main()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.SynchronizeWithVerticalRetrace = true;
+            graphics.SynchronizeWithVerticalRetrace = false;
             IsMouseVisible = true;
-            IsFixedTimeStep = true;
+            IsFixedTimeStep = false;
         }
 
         protected override void Initialize()
@@ -56,6 +58,8 @@ namespace SpaceSim
             // metres per pixel assuming 16 billion km diameter for max orbit
             this.distScale = 16 * Math.Pow(10, 12) / Math.Min(this.screen.Width, this.screen.Height) / 4;
 
+            this.camFocus = 0;
+
             base.Initialize();
         }
 
@@ -74,12 +78,12 @@ namespace SpaceSim
 
             }
 
-            if (keyboard.IsKeyDown(Keys.Up))
+            if (keyboard.IsKeyClicked(Keys.Up))
             {
                 timeScale += 10000;
             }
 
-            if (keyboard.IsKeyDown(Keys.Down))
+            if (keyboard.IsKeyClicked(Keys.Down))
             {
                 timeScale -= 10000;
             }
@@ -97,6 +101,26 @@ namespace SpaceSim
             if (keyboard.IsKeyClicked(Keys.S))
             {
                 this.camera.DecZoom();
+            }
+
+            if (keyboard.IsKeyClicked(Keys.Space))
+            {
+                if (keyboard.IsKeyDown(Keys.LeftShift))
+                {
+                    this.camFocus--;
+                    if (this.camFocus < 0)
+                    {
+                        this.camFocus = this.bodies.Count - 1;
+                    }
+                }
+                else
+                {
+                    this.camFocus++;
+                    if (this.camFocus >= this.bodies.Count)
+                    {
+                        this.camFocus = 0;
+                    }
+                }
             }
 
             if (keyboard.IsKeyDown(Keys.Escape))
@@ -123,7 +147,13 @@ namespace SpaceSim
                 }
                 a.velocity += a.acceleration * (gameTime.ElapsedGameTime.TotalSeconds / sixtyFps) * timeScale;
                 a.position += a.velocity * (gameTime.ElapsedGameTime.TotalSeconds / sixtyFps) * timeScale;
+                VectorD pos = GetPixelDistanceLog(a);
+                a.x = (int)pos.X;
+                a.y = (int)pos.Y;
             }
+
+            Vector2 newPos = new Vector2((float)this.bodies[this.camFocus].x, (float)this.bodies[this.camFocus].y);
+            camera.MoveTo(newPos);
 
             base.Update(gameTime);
         }

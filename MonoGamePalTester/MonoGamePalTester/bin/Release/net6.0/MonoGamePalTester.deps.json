@@ -8,9 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "MonoGamePalTester/1.0.0": {
         "dependencies": {
-          "Flat": "1.0.0",
           "MonoGame.Content.Builder.Task": "3.8.1.303",
-          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+          "MonoGame.Framework.DesktopGL": "3.8.1.303",
+          "connormcharg-flat": "1.0.4",
+          "Flat": "1.0.4.0"
         },
         "runtime": {
           "MonoGamePalTester.dll": {}
@@ -67,9 +68,20 @@
           }
         }
       },
-      "Flat/1.0.0": {
+      "connormcharg-flat/1.0.4": {
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.1.303"
+        },
         "runtime": {
           "Flat.dll": {}
+        }
+      },
+      "Flat/1.0.4.0": {
+        "runtime": {
+          "Flat.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
         }
       }
     }
@@ -94,8 +106,13 @@
       "path": "monogame.framework.desktopgl/3.8.1.303",
       "hashPath": "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
     },
-    "Flat/1.0.0": {
+    "connormcharg-flat/1.0.4": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Flat/1.0.4.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }

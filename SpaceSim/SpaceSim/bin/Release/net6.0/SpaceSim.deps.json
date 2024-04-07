@@ -8,20 +8,20 @@
     ".NETCoreApp,Version=v6.0": {
       "SpaceSim/1.0.0": {
         "dependencies": {
-          "connormcharg-flat": "1.0.4"
+          "connormcharg-flat": "1.0.5"
         },
         "runtime": {
           "SpaceSim.dll": {}
         }
       },
-      "connormcharg-flat/1.0.4": {
+      "connormcharg-flat/1.0.5": {
         "dependencies": {
           "MonoGame.Framework.DesktopGL": "3.8.1.303"
         },
         "runtime": {
           "lib/net6.0/Flat.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
           }
         }
       },
@@ -83,12 +83,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "connormcharg-flat/1.0.4": {
+    "connormcharg-flat/1.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PeW2HCttmFcAxOamqEygYVuHvJ+DGau+KSFDzE+pWVMItzVOt8laQDhDEJaq4FNZKergqbo36joPewfDJPEs0g==",
-      "path": "connormcharg-flat/1.0.4",
-      "hashPath": "connormcharg-flat.1.0.4.nupkg.sha512"
+      "sha512": "sha512-0S3FWp9crztNgdBPalXBJXbmn1EPEhLzW5qPQ1xCLsjIt47qH2gO578b77jQ5xkR5sDv+f18XygfxWi+dgGcsw==",
+      "path": "connormcharg-flat/1.0.5",
+      "hashPath": "connormcharg-flat.1.0.5.nupkg.sha512"
     },
     "MonoGame.Framework.DesktopGL/3.8.1.303": {
       "type": "package",

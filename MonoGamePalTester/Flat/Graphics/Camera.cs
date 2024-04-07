@@ -66,7 +66,7 @@ namespace Flat.Graphics
 
         public void UpdateMatricies()
         {
-            this.view = Matrix.CreateLookAt(new Vector3(0, 0, this.z), Vector3.Zero, Vector3.Up);
+            this.view = Matrix.CreateLookAt(new Vector3(this.position.X, this.position.Y, this.z), new Vector3(this.Position.X, this.Position.Y, 0f), Vector3.Up);
             this.projection = Matrix.CreatePerspectiveFieldOfView(this.fieldOfView, this.aspectRatio, Camera.MinZ, Camera.MaxZ);
         }
 
@@ -84,21 +84,25 @@ namespace Flat.Graphics
         {
             this.z += amount;
             Util.Clamp(this.z, Camera.MinZ, Camera.MaxZ);
+            UpdateMatricies();
         }
 
         public void ResetZ()
         {
             this.z = baseZ;
+            UpdateMatricies();
         }
 
         public void Move(Vector2 amount)
         {
             this.position += amount;
+            UpdateMatricies();
         }
 
         public void MoveTo(Vector2 position)
         {
             this.position = position;
+            UpdateMatricies();
         }
 
         public void IncZoom()

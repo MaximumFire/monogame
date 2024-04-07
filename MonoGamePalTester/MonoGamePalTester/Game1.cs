@@ -67,19 +67,24 @@ namespace MonoGamePalTester
                 Util.ToggleFullScreen(graphics);
             }
 
-            if (mouse.IsLeftButtonClicked())
+            if (keyboard.IsKeyDown(Keys.Left))
             {
-                Console.WriteLine("Left button clicked");
+                this.camera.Move(new Vector2(-1, 0));
             }
 
-            if (mouse.IsRightButtonClicked())
+            if (keyboard.IsKeyDown(Keys.Right))
             {
-                Console.WriteLine("Right button clicked");
+                this.camera.Move(new Vector2(1, 0));
             }
 
-            if (mouse.IsMiddleButtonClicked())
+            if (keyboard.IsKeyDown(Keys.Up))
             {
-                Console.WriteLine("Middle button clicked");
+                this.camera.Move(new Vector2(0, 1));
+            }
+
+            if (keyboard.IsKeyDown(Keys.Down))
+            {
+                this.camera.Move(new Vector2(0, -1));
             }
 
             if (keyboard.IsKeyDown(Keys.Escape))
