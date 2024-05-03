@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("2D Graphics Implementation in  MonoGame")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.5.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.5+e13d78ddee632aabfd69fca1c7b0344ee3efce74")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.5+3e41015ae70229cf1b83fa62888a91f6539749f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Flat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Flat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.5.0")]

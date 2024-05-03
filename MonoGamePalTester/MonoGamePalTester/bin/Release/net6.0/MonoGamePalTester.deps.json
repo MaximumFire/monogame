@@ -10,8 +10,8 @@
         "dependencies": {
           "MonoGame.Content.Builder.Task": "3.8.1.303",
           "MonoGame.Framework.DesktopGL": "3.8.1.303",
-          "connormcharg-flat": "1.0.4",
-          "Flat": "1.0.4.0"
+          "connormcharg-flat": "1.0.5",
+          "Flat": "1.0.5.0"
         },
         "runtime": {
           "MonoGamePalTester.dll": {}
@@ -68,7 +68,7 @@
           }
         }
       },
-      "connormcharg-flat/1.0.4": {
+      "connormcharg-flat/1.0.5": {
         "dependencies": {
           "MonoGame.Framework.DesktopGL": "3.8.1.303"
         },
@@ -76,11 +76,11 @@
           "Flat.dll": {}
         }
       },
-      "Flat/1.0.4.0": {
+      "Flat/1.0.5.0": {
         "runtime": {
           "Flat.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
           }
         }
       }
@@ -106,12 +106,12 @@
       "path": "monogame.framework.desktopgl/3.8.1.303",
       "hashPath": "monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
     },
-    "connormcharg-flat/1.0.4": {
+    "connormcharg-flat/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Flat/1.0.4.0": {
+    "Flat/1.0.5.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

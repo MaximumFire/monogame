@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "U+TBuy90j1rsmKy1vESCEEB5ENWS+7HqU8fTo2rXWq02oLK5wpl44ImIdf91SwJLiAJUtJ0xUJA63w1ybdj2hA==",
+  "dgSpecHash": "wxQcyv2Yc1FnjIw6GFzUUIPg9gHCm+Pi8BGDTlbq82h8DAonU/dofzPtoIsQzlyDWHV6H3LpJbaoZbNozW6VPQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\conno\\OneDrive\\Documents\\GitHub\\monogame\\MonoGamePalTester\\MonoGamePalTester\\MonoGamePalTester.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\conno\\.nuget\\packages\\monogame.content.builder.task\\3.8.1.303\\monogame.content.builder.task.3.8.1.303.nupkg.sha512",
-    "C:\\Users\\conno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512"
+    "C:\\Users\\conno\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.1.303\\monogame.framework.desktopgl.3.8.1.303.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\connormcharg-flat\\1.0.5\\connormcharg-flat.1.0.5.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.28\\microsoft.windowsdesktop.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.28\\microsoft.netcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.28\\microsoft.aspnetcore.app.ref.6.0.28.nupkg.sha512",
+    "C:\\Users\\conno\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.28\\microsoft.netcore.app.host.win-x64.6.0.28.nupkg.sha512"
   ],
   "logs": []
 }
