@@ -151,6 +151,11 @@ namespace SpaceSim
                 VectorD pos = GetPixelDistanceLog(a);
                 a.x = (int)pos.X;
                 a.y = (int)pos.Y;
+                a.path.Add(new VectorD(a.x, a.y));
+                if (a.path.Count > 250)
+                {
+                    a.path.RemoveAt(0);
+                }
             }
 
             Vector2 newPos = new Vector2((float)this.bodies[this.camFocus].x, (float)this.bodies[this.camFocus].y);
@@ -169,6 +174,14 @@ namespace SpaceSim
 
             foreach (Body a in this.bodies)
             {
+                for (int i = 0; i < a.path.Count - 1; i++)
+                {
+                    this.shapes.DrawLine(
+                        new Vector2((float)a.path[i].X, (float)a.path[i].Y), 
+                        new Vector2((float)a.path[i+1].X, 
+                        (float)a.path[i+1].Y), 1f, a.color);
+                }
+                                               
                 VectorD pixelPositions = GetPixelDistanceLog(a);
                 float x = (float)pixelPositions.X;
                 float y = (float)pixelPositions.Y;

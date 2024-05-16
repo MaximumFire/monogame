@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SpaceSim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e41015ae70229cf1b83fa62888a91f6539749f5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a12927f2038c45faf34a1dcc306a6ca175cbea3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SpaceSim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SpaceSim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

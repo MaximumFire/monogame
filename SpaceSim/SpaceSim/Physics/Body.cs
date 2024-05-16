@@ -14,6 +14,7 @@ namespace SpaceSim.Physics
         public int y;
         public Color color;
         public float size;
+        public List<VectorD> path;
 
         public Body(double mass, VectorD position, float size, Color color)
         {
@@ -23,6 +24,7 @@ namespace SpaceSim.Physics
             this.position = position;
             this.color = color;
             this.size = size;
+            this.path = new List<VectorD>();
         }
 
         public Body(double mass, VectorD position, VectorD velocity, float size, Color color)
@@ -33,6 +35,7 @@ namespace SpaceSim.Physics
             this.position = position;
             this.color = color;
             this.size = size;
+            this.path = new List<VectorD>();
         }
     }
 }
